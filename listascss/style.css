@@ -1,21 +1,18 @@
-h1{
-    text-align: center;
-}
+ul {
+    list-style-type:upper-roman ;
+    }
 
 ol{
     list-style-image: url("img/sonrisa.png");
 }
 
-ul {
-    list-style-type:upper-roman ;
-    list-style-position: inside;
-    }
-    
-    li.a{
-        background-color:lightskyblue ;
-
-    }
-
-summary {
-    list-style-type: circle;
-  }
+dt.personalizado{
+    background-color: yellow;
+    border-color: red;
+    border-style: solid;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    width: 30%;
+    height: 50px;
+}
