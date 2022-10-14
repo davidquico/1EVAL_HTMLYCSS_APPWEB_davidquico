@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+ol{
+    list-style-image: url("img/sonrisa.png");
+}
+
+ul {
+    list-style-type:upper-roman ;
+    list-style-position: inside;
+    }
+    
+    li.a{
+        background-color:lightskyblue ;
+
+    }
+
+summary {
+    list-style-type: circle;
+  }
