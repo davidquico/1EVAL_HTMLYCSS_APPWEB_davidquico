@@ -1,0 +1,30 @@
+p.non {
+    border: #e74c3c 5px none;
+}
+p.hid {
+    border: #e67e22  5px hidden;
+}
+p.dot {
+    border: #f1c40f 5px dotted;
+}
+p.das {
+    border: #48e050 5px dashed;
+}
+p.sol {
+    border: #3498db 5px solid;
+}
+p.dou {
+    border: #b56ec7 5px double;
+}
+p.gro {
+    border: #474747 5px groove;
+}
+p.rid {
+    border: #8f8f8f 5px ridge;
+}
+p.ins {
+    border: #bbbbbb 5px inset;
+}
+p.out {
+    border: #d4d4d4  5px outset;
+}
