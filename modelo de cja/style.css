@@ -1,12 +1,16 @@
+html {
+    border: 5px #3aff5b solid;
+}
+
 body {
-    border:1em #ff5959 solid;
+    border: 1em #ff5959 solid;
     background-color: #6df7f7;
     font-size: 1em;
+    margin: 0px;
 }
 
 table {
     border-style: double;
-    border-radius: 20%;
     border-width: 1rem;
     background-color: #fffd71;
     width: 50%;
@@ -14,14 +18,15 @@ table {
 }
 
 tr {
-    border: 1em #083baa solid;
+    border: 1em #0effdf solid;
 }
 
 td {
-    border: 0.3em #0b07ff solid;
+    border: 0.3em #120efc solid;
     padding-top:20%;
     padding-bottom:40%;
     padding-left:20%;
     padding-right:40%;
     padding: 20% 30% 25%;
+    border-radius: 30px 20px 0px 0px;
 }
