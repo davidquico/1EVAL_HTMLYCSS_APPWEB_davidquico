@@ -1,6 +1,6 @@
 body {
-    border:1em red solid;
-    background-color: aqua;
+    border:1em #ff5959 solid;
+    background-color: #6df7f7;
     font-size: 1em;
 }
 
@@ -8,18 +8,18 @@ table {
     border-style: double;
     border-radius: 20%;
     border-width: 1rem;
-    background-color: yellow;
+    background-color: #fffd71;
     width: 50%;
     height: 40%;
 }
 
 tr {
-    border: 1em blue solid;
+    border: 1em #0b07ff solid;
     bor
 }
 
 td {
-    border: 0.3em blue solid;
+    border: 0.3em #0b07ff solid;
     padding-top:20%;
     padding-bottom:40%;
     padding-left:20%;
