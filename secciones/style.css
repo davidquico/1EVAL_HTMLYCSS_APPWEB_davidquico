@@ -1,15 +1,15 @@
-header{
-    border: 3px blue solid;
+header {
+    border: 3px #0000ff solid;
     height: 20%;
 }
 
-nav{
-    border: 3px black solid;
+nav {
+    border: 3px #000000 solid;
     height: 60%;
 }
 
-footer{
-    border: 3px yellow solid;
+footer {
+    border: 3px #fafa70 solid;
     height: 20%;
 }
 
@@ -17,6 +17,19 @@ li.menu {
     list-style-type: none;
     display: inline;
     padding: 3px;
-    margin: 3px;
-    border: 3px blue solid;
+    margin: 5px;
+    border: 1px #0000ff solid;
+}
+
+div.logo {
+    display: inline;
+    width: 30%;
+    border: 1px #ff4141 solid;
+}
+
+ul {
+    display: inline;
+    width: 20%;
+    border: 2px #4545ff solid;
+    padding-left: 30%;
 }

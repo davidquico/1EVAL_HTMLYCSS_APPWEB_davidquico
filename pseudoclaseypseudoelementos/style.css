@@ -1,0 +1,29 @@
+/*Autor: David Manuel Quico Cuya*/
+
+header :first-child {
+    color: #002fff;
+}
+
+a:link {
+    background-color: #8b59c4;
+}
+
+a:visited {
+    background-color: #000000;
+}
+
+a:hover {
+    background-color: pink;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+a:active{
+    background-color: ;
+}
+
+input:focus{
+    background-color: yellow;
+}
