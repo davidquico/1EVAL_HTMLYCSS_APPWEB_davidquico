@@ -20,10 +20,10 @@ a:hover {
     font-style: oblique;
 }
 
-a:active{
+a:active {
     background-color: ;
 }
 
-input:focus{
+input:focus {
     background-color: yellow;
 }
