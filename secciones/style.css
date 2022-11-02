@@ -15,10 +15,10 @@ footer {
 
 li.menu {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding: 3px;
     margin: 5px;
-    border: 1px #0000ff solid;
+    width: 1%;
 }
 
 div.logo {
