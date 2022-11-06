@@ -21,7 +21,7 @@ a:hover {
 }
 
 a:active {
-    background-color: ;
+    background-color: red;
 }
 
 input:focus {
