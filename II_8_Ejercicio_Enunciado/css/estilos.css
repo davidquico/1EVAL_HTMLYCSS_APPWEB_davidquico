@@ -1,0 +1,26 @@
+body {
+    background-color: #e6e6e6;
+}
+
+div.container {
+    background-color: #a3ff8d;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+div.nav-item {
+    background-color: #666666;
+    color: #ffffff;
+    padding: 14px;
+    height: 23px;
+    font-size: 23px;
+}
+
+#li1 {
+    border: black 5px solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
