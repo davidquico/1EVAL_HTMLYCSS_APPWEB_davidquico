@@ -10,7 +10,7 @@ div.container {
     /**Posición y modificación de borde**/
     position: relative;
     margin: 100px auto;
-    height: 600px;
+    height: 800px;
     width: 80%;
 }
 
@@ -19,7 +19,6 @@ div.container nav {
     /**Color fondo**/
     background-color: #545454;
     /**Posición y modificación de borde**/
-    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index: 100;
@@ -141,7 +140,7 @@ div.fixed-sidebar {
     text-align: center;
     /**Posicionamiento y borde**/
     position: absolute;
-    top: 22%;
+    top: 42%;
     border: 2px solid black;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
