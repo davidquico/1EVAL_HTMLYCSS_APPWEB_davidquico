@@ -10,7 +10,7 @@ div.container {
     /**Posición y modificación de borde**/
     position: relative;
     margin: 100px auto;
-    height: 1100px;
+    height: 600px;
     width: 80%;
 }
 
@@ -28,7 +28,7 @@ div.container nav div {
 /**Modifica el "div" del nav del div de clase container**/
     /**Color y tamaño del texto**/
     color:#ffffff;
-    font-size: 24px;
+    font-size: 20px;
     /**Modificación borde**/
     display: inline-block;
     padding: 20px;
@@ -60,7 +60,7 @@ figure img {
     position: absolute;
     display: inline-block;
     top: 25%;
-    left: 20%;
+    left: 18%;
     border: 3px solid black;
     border-radius: 10px;
     padding-top: 10px;
@@ -81,7 +81,7 @@ figure img {
     position: absolute;
     display: inline-block;
     top: 30%;
-    left: 30%;
+    left: 28%;
     border: 3px solid black;
     border-radius: 10px;
     padding-top: 10px;
@@ -102,7 +102,7 @@ figure img {
     position: absolute;
     display: inline-block;
     top: 35%;
-    left: 40%;
+    left: 38%;
     border: 3px solid black;
     border-radius: 10px;
     padding-top: 10px;
@@ -123,7 +123,7 @@ figure img {
     position: absolute;
     display: inline-block;
     top: 43%;
-    left: 50%;
+    left: 48%;
     border: 3px solid black;
     border-radius: 10px;
     padding-top: 10px;
@@ -140,19 +140,19 @@ div.fixed-sidebar {
     text-align: center;
     /**Posicionamiento y borde**/
     position: absolute;
-    top: 26%;
+    top: 22%;
     border: 2px solid black;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     /**Base y altura**/
     width: 7%;
-    height: 40%;
+    height: 50%;
 }
 
 div.fixed-sidebar ul {
 /**Modifica el ul del div de clase "fixed-sidebar"**/
     /**Letra**/
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
     /**Tipo de marcador**/
     list-style: none;
