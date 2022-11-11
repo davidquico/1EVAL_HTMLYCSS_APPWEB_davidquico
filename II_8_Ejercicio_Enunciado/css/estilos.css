@@ -1,26 +1,167 @@
+/**Color de fondo de la página entera**/
 body {
-    background-color: #e6e6e6;
+    background-color: #dbdbdb;
 }
 
 div.container {
-    background-color: #a3ff8d;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+/**Modifica el div de clase "container"**/
+    /**Color fondo**/
+    background-color: lightgreen;
+    /**Posición y modificación de borde**/
+    position: relative;
+    margin: 100px auto;
+    height: 1100px;
+    width: 80%;
 }
 
-div.nav-item {
-    background-color: #666666;
-    color: #ffffff;
-    padding: 14px;
-    height: 23px;
-    font-size: 23px;
+div.container nav {
+/**Modifica la "nav" del div de clase container**/
+    /**Color fondo**/
+    background-color: #545454;
+    /**Posición y modificación de borde**/
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 100;
+}
+
+div.container nav div {
+/**Modifica el "div" del nav del div de clase container**/
+    /**Color y tamaño del texto**/
+    color:#ffffff;
+    font-size: 28px;
+    /**Modificación borde**/
+    display: inline-block;
+    padding: 20px;
+    width: 20%;
+}
+
+figure {
+/**Modifica el elemento "figure"**/
+    /**Configuración del borde**/
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+}
+
+figure img {
+/**Modifica la "img" del elemento figure**/
+    /**Tamaño img**/
+    width: 90%;
 }
 
 #li1 {
-    border: black 5px solid;
-    border-radius: 10px;
-    background-color: #ffffff;
+/**Modifica el 1ºid del elemento "figure"**/
+    /**Texto y fondo**/
+    background-color:#ffffff;
     text-align: center;
+    font-size: 20px;
+    /**Posicionamiento y bordes**/
+    position: absolute;
+    display: inline-block;
+    top: 25%;
+    left: 20%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    width: 25%;
+    /**Rotación**/
+    transform: rotate(-45deg);
+    z-index: 20;
+}
+
+#li2 {
+/**Modifica el 2ºid del elemento "figure"**/
+    /**Texto y fondo**/
+    background-color:#ffffff;
+    text-align: center;
+    font-size: 20px;
+    /**Posicionamiento y bordes**/
+    position: absolute;
+    display: inline-block;
+    top: 30%;
+    left: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    width: 25%;
+    /**Rotación**/
+    transform: rotate(45deg);
+    z-index: 15;
+}
+
+#li3 {
+/**Modifica el 3ºid del elemento "figure"**/
+    /**Texto y fondo**/
+    background-color:#ffffff;
+    text-align: center;
+    font-size: 20px;
+    /**Posicionamiento y bordes**/
+    position: absolute;
+    display: inline-block;
+    top: 35%;
+    left: 40%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    width: 25%;
+    /**Rotación**/
+    transform: rotate(-15deg);
+    z-index: 10;
+}
+
+#li4 {
+/**Modifica el 4ºid del elemento "figure"**/
+    /**Texto y fondo**/
+    background-color:#ffffff;
+    text-align: center;
+    font-size: 20px;
+    /**Posicionamiento y bordes**/
+    position: absolute;
+    display: inline-block;
+    top: 43%;
+    left: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    width: 25%;
+    /**Rotación**/
+    transform: rotate(15deg);
+    z-index: 2;
+}
+
+div.fixed-sidebar {
+/**Modifica el div de clase "fixed-sidebar"**/
+    /**Letra**/
+    text-align: center;
+    /**Posicionamiento y borde**/
+    position: absolute;
+    top: 26%;
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /**Base y altura**/
+    width: 7%;
+    height: 40%;
+}
+
+div.fixed-sidebar ul {
+/**Modifica el ul del div de clase "fixed-sidebar"**/
+    /**Letra**/
+    font-size: 23px;
+    text-align: center;
+    /**Tipo de marcador**/
+    list-style: none;
+    /**Margen interior izquierda**/
+    padding-left: 5px;
+}
+
+div.fixed-sidebar img {
+/**Modifica la img del div de clase "fixed-sidebar"**/
+    /**Anchura imagen**/
+    width: 90%;
 }
