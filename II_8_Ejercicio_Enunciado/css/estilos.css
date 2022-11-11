@@ -21,6 +21,7 @@ div.container nav {
     /**Posición y modificación de borde**/
     position: -webkit-sticky;
     position: sticky;
+    top: 0px;
     z-index: 100;
 }
 
