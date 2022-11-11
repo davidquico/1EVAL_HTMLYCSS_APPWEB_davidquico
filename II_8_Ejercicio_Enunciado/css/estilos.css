@@ -28,7 +28,7 @@ div.container nav div {
 /**Modifica el "div" del nav del div de clase container**/
     /**Color y tamaño del texto**/
     color:#ffffff;
-    font-size: 28px;
+    font-size: 24px;
     /**Modificación borde**/
     display: inline-block;
     padding: 20px;
@@ -55,7 +55,7 @@ figure img {
     /**Texto y fondo**/
     background-color:#ffffff;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     /**Posicionamiento y bordes**/
     position: absolute;
     display: inline-block;
@@ -76,7 +76,7 @@ figure img {
     /**Texto y fondo**/
     background-color:#ffffff;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     /**Posicionamiento y bordes**/
     position: absolute;
     display: inline-block;
@@ -97,7 +97,7 @@ figure img {
     /**Texto y fondo**/
     background-color:#ffffff;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     /**Posicionamiento y bordes**/
     position: absolute;
     display: inline-block;
@@ -118,7 +118,7 @@ figure img {
     /**Texto y fondo**/
     background-color:#ffffff;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     /**Posicionamiento y bordes**/
     position: absolute;
     display: inline-block;
@@ -152,7 +152,7 @@ div.fixed-sidebar {
 div.fixed-sidebar ul {
 /**Modifica el ul del div de clase "fixed-sidebar"**/
     /**Letra**/
-    font-size: 23px;
+    font-size: 17px;
     text-align: center;
     /**Tipo de marcador**/
     list-style: none;
