@@ -1,4 +1,6 @@
 * {
+    /**Toma en cuenta el ancho especificado sea el equivalente al ancho total**/
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -7,76 +9,85 @@ body {
     background-color: #ffffff;
 }
 
+/**Práctica enteramente utilizando el elemento float**/
+
 div.container {
-    /**Anchura y espacio del contendor entero**/
+    /**Anchura y espacio para la clase contendor entero**/
     margin: 20px auto;
     width: 80%;
 }
 
 h1 {
-    /**Texto centrado**/
+    /**Texto centrado para el encabezado de nivel 1**/
     text-align: center;
 }
 
 div.container nav {
-    /**Fuente de letra del nav del contenedor**/
-    background-color: black;
-    color: white;
+    /**Fuente de letra y fondo del nav de la clase contenedor**/
     font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
 }
 div.container nav div {
+    /**Elemento como bloque en linea, relleno interno y anchura del div del nav de la clase contenedor**/
     display: inline-block;
     padding: 12px;
     width: 15%;
 }
 
 div.sidebar {
+    /**Flotación al lado izquierdo, color fondo-texto, relleno externo, tamaño y fuente de letra de la clase sidebar**/
     float: left;
-    background-color: black;
-    color: white;
     margin-top: 30px;
     width: 14%;
     height: 25em;
     font-size: 17px;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 div.sidebar div {
+    /**Relleno interno para el div de la clase sidebar**/
     padding: 10px;
 }
 
 section.courses {
+    /**Flotación al lado izquierdo, relleno exterior izquierda y anchura de la clase courses**/
     float: left;
-    width: 80%;
     margin-left: 5%;
+    width: 80%;
 }
 
 div.course {
-    border: 2px black solid;
-    border-radius: 10px;
-    width: 20%;
+    /**Flotación a la izquierda, relleno arriba exterior y relleno interior, borde negro redondeado, anchura y texto centrado de la clase course**/
     float: left;
     padding: 8px;
     margin-top: 30px;
-    text-align: center;
+    border: 2px black solid;
+    border-radius: 10px;
     width: 33%;
+    text-align: center;
 }
 
 div.course img {
+    /**Anchura de la imagen de la clase course**/
     width: 35%;
 }
 
 section.articles {
+    /**Flotación a la izquierdda, relleno ariba y izquierda exterior, nº de columnas que se va a dividir y anchura de la clase articles**/
     float:left;
-    column-count: 3;
     margin-top: 30px;
     margin-left: 5%;
+    column-count: 3;
     width: 80%;
 }
 
 footer {
+    /**Flotación a la izquierda, relleno arriba interna, anchura máxima, fondo color y texto centrado**/
     float: left;
-    text-align: center;
-    background-color: lightgray;
     padding: 20px;
     width: 100%;
+    background-color: #d3d3d3;
+    text-align: center;
 }
