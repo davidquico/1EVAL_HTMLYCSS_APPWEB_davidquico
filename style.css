@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -8,9 +10,8 @@ body {
 }
 
 .contenedor {
-    box-shadow: 10px 10px 10px 10px #00000033;
-    margin: 50px;
-    background-color: #cecece;
+    margin: 0px;
+    background-color: #ffffff;
     height: 80%;
 }
 
