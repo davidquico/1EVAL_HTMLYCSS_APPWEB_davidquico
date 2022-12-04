@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.contenedor {
+    box-shadow: 10px 10px 10px 10px #00000033;
+    margin: 50px;
+    background-color: #cecece;
+    height: 80%;
+}
+
+#arriba {
+    background-color: #6e6e6e;
+    color: #ffffff;
+    height: 60px;
+    position: sticky;
+    -webkit-position: sticky;
+}
