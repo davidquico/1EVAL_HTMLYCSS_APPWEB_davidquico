@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #e0eefa;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: #4bbaed;
+}
+
+h3 {
+    background-color: #b8e9ff;
+    color: #ffffff;
+}
+
+blockquote {
+    margin-left: 5%;
+    font-style: italic;
+}
+pre {
+    background-color: #ffffff;
+    font-family:sans-serif;
+    white-space: pre;
+    font-weight:bold;
+}
