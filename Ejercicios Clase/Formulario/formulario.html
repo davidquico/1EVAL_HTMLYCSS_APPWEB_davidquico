@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio formulario</title>
+  <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+  <h1>Formularios</h1>
+  <form action="procesarioformulario.php" method="get">
+    <fieldset>
+      <!--Nombre, apellidos y email-->
+      <legend>Datos personales</legend>
+      <p>
+        Nombre:&nbsp;<input type="text" name="nombre1" id="nombre1" size="40" placeholder="Introduce tu nombre..." />
+      </p>
+      <label for="nombre1"></label>
+      <p>Apellidos:&nbsp;<input type="text" name="apellidos" size="40" placeholder="Introduce tu apellido" /></p>
+      <p>
+        Email:&nbsp;<input type="email" name="email" size="40" required="" placeholder="usuario@dominio" />
+      </p>
+      <!--Año de nacimiento-->
+      <p>
+        Año de nacimiento:&nbsp;<input type="number" name="nacido" max="2022" min="1950" />
+      </p>
+      <!--Lugar de nacimiento-->
+      <p>
+        Lugar de nacimiento
+        <select name="Lugardenacimiento" id="lugardenacimiento">
+          <option>&nbsp;</option>
+          <optgroup label="Cataluña">
+            <option value="">Barcelona</option>
+            <option value="">Tarragona</option>
+          </optgroup>
+          <optgroup label="Comunidad de Madrid">
+            <option value="">Madrid</option>
+          </optgroup>
+          <optgroup label="País Vasco">
+            <option value="">Bilbao</option>
+          </optgroup>
+          <option value="">Otro</option>
+        </select>
+      </p>
+      <!--Archivo file-->
+      <p>
+        Foto DNI:&nbsp;<input type="file" name="fotodni" size="2" accept=".pdf,.html" />
+      </p>
+      <!--Botón radio-->
+      <p>
+        Sexo:&nbsp;<br /><input type="radio" name="hm" value="h" />
+        &nbsp;Hombre
+        <input type="radio" name="hm" value="m" />&nbsp;Mujer
+      </p>
+    </fieldset>
+    <!--Casilla de verificación-->
+    <fieldset>
+      <legend>Otros datos</legend>
+      <p>
+        Deportes:
+        <br /><input type="checkbox" name="futbol" id="futbol" />&nbsp;Fútbol
+        <label for="futbol"></label>
+        <br /><input type="checkbox" name="baloncesto" id="baloncesto" />&nbsp;Baloncesto
+        <label for="baloncesto"></label>
+        <br /><input type="checkbox" name="tennis" id="tennis" />&nbsp;Tennis
+        <label for="tennis"></label>
+        <br /><input type="checkbox" name="voleyball" id="voleyball" />&nbsp;Voleyball
+        <label for="voleyball"></label>
+        <br /><input type="checkbox" name="beisbol" id="beisbol" />&nbsp;Beisbol
+        <label for="beisbol"></label>
+        <br /><input type="checkbox" name="otro" id="otro" />&nbsp;Otro
+        <label for="otro"></label>
+      </p>
+      <!--Lugares-->
+      <p>
+        Lugares visitados
+        <select name="Lugaresvisitados[]" id="lugaresvisitados" multiple>
+          <option value="barcelona">Barcelona</option>
+          <option value="madrid">Madrid</option>
+          <option value="sevilla">Sevilla</option>
+          <option value="sinelegir" selected></option>
+        </select>
+      </p>
+      <!--Comentario-->
+      <p>
+        <textarea name="desc" cols="65" rows="10" placeholder="Escribe tu comentario..."></textarea>
+      </p>
+      <!--Botón-->
+      <button>
+        <img src="img/tickv.png" alt="tick" width="20" height="20" />
+        Boton creado con la etiqueta button
+      </button>
+      <!--Submit y reset-->
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </p>
+    </fieldset>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+html {
+    border: 5px #3aff5b solid;
+}
+
+body {
+    border: 1em #ff5959 solid;
+    background-color: #6df7f7;
+    font-size: 1em;
+    margin: 0px;
+}
+
+table {
+    border-style: double;
+    border-width: 1rem;
+    background-color: #fffd71;
+    width: 50%;
+    height: 40%;
+}
+
+tr {
+    border: 1em #0effdf solid;
+}
+
+td {
+    border: 0.3em #120efc solid;
+    padding-top:20%;
+    padding-bottom:40%;
+    padding-left:20%;
+    padding-right:40%;
+    padding: 20% 30% 25%;
+    border-radius: 30px 20px 0px 0px;
+}
+
+.t2 {
+    margin: 30px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #c9eded;
+}
+
+.t2 td {
+    border-bottom: #ef1e1e 2px dashed;
+    border-left: #000000 10px double;
+    border-top: #249872 groove 15px;
+    border-bottom: #829ec7 inset 3rem;
+}
